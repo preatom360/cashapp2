@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00c853;
+    color: white;
+}
+
+header {
+    background-color: #009624;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.promo {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.promo h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.promo p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.claim-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: #009624;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.claim-button:hover {
+    background-color: #e0e0e0;
+}
+
+.phone-image {
+    margin-top: 20px;
+}
+
+.phone-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.steps {
+    text-align: center;
+    padding: 20px;
+}
+
+.steps h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.step {
+    background-color: #009624;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1.1rem;
+}
